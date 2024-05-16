@@ -54,7 +54,7 @@ services:
     environment:
       - CHOKIDAR_USEPOLLING=true
     env_file: ./Front-End/.env
-    command: npm run start
+    command: npm run start-prod
     ports:
       - "8080:8080"
     volumes:
